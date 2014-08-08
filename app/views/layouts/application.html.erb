@@ -5,24 +5,28 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
 
-  <body>
-    <div id="header">
-      <div id="main-logo">
-        <a href="http://4pt0.org">
-          <img src="/assets/main-horizontal-logo.png" alt="4.0 Schools" />
-        </a>
+  <body class = "container-fluid">
+    <header class="navbar navbar-fixed-top">
+      <div class = "navbar-inner">
+        <div class="container">
+          <a href="http://4pt0.org">
+            <img src="/assets/main-horizontal-logo.png" alt="4.0 Schools" />
+          </a>
+          <nav>
+            <ul class ="nav pull-right">
+              <li><a href="#">EMPATHY</a></li>
+              <li><a href="#">UNBUNDLING</a></li>
+              <li><a href="#">PROTOTYPING</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
-
-      <div id="main-navigation">
-        <ul>
-          <li><a href="#">EMPATHY</a></li>
-          <li><a href="#">UNBUNDLING</a></li>
-          <li><a href="#">PROTOTYPING</a></li>
-        </ul>
-      </div>
-    </div>
+    </header>
 
     <div id="launch-logo">
       <a href="#">
@@ -30,8 +34,9 @@
       </a>
     </div>
     <%#= render "searchbar" %>
-
-    <%= yield %>
+    <div class = "container">
+      <%= yield %>
+    </div>
 
     <div id="footer">
       <div id="sub-logo">
