@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>LaunchBox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaunchBox - 4.0 Schools</title>
+    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Rails Bootstrap" %>">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
@@ -9,26 +11,43 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
-
-  <body class = "container-fluid">
+  
+  <body>
+    <header>
+      <a href="http://4pt0.org">
+        <img src="/assets/main-horizontal-logo.png" alt="4.0 Schools" />
+      </a>
+    <%= render 'layouts/navigation' %>
+    </header>
+    <main role="main">
+       <%#= render 'layouts/messages' %>
+       <%= yield %>
+    </main>
+  </body>
+</html>
+ <!--  <body class = "container-fluid">
     <header class="navbar navbar-fixed-top">
       <div class = "navbar-inner">
         <div class="container">
           <a href="http://4pt0.org">
             <img src="/assets/main-horizontal-logo.png" alt="4.0 Schools" />
           </a>
-          <nav>
-            <ul class ="nav pull-right">
+          <a href="#" class="to_nav">
+            MENU</i>
+          </a>
+         <nav class="main-nav clearfix" role="navigation">
+            <ul class ="clearfix">
               <li><a href="#">EMPATHY</a></li>
               <li><a href="#">UNBUNDLING</a></li>
               <li><a href="#">PROTOTYPING</a></li>
             </ul>
-          </nav>
+            
+           </nav> 
         </div>
       </div>
-    </header>
+    </header> -->
 
-    <div id="launch-logo">
+    <!-- <div id="launch-logo">
       <a href="#">
         <img src="/assets/launchbox.png" alt="Launch Logo" />
       </a>
@@ -46,7 +65,9 @@
       </div>
       <div id="social-media">
         <div class="footer-media">
-          <a href="https://twitter.com/4pt0schools" target="_blank">Twitter</a>
+          <a href="https://twitter.com/4pt0schools" target="_blank">
+            <i class="fa fa-twitter"></i>
+          </a>
         </div>
 
         <div class="footer-media">
@@ -68,8 +89,8 @@
         <div class="footer-media">
           <a href="http://youtube.com/4pt0" target="_blank">Youtube</a>
         </div>
-      </div>
-    </div>
+      </div> -->
+    <!-- </div>
 
   </body>
-</html>
+</html> -->

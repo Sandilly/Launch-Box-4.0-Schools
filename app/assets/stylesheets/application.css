@@ -12,28 +12,13 @@
  *
  *= require_tree .
  *= require_self
+
  */
-body{
-  font-family: sans-serif;
+
+/*---------------Navbar----------------*/
+.navbar-toggle{
+  background-color: #2d9ed4;
 }
- /*-------------------HEADER---------------------*/
-}
-#main-navigation{
-  width:100%;
-}
-#main-navigation ul {
-  list-style: none;
-}
-#main-navigation ul li{
-  display: inline-block;
-}
-#main-navigation ul li a{
-  text-decoration: none;
-  color: #5e5e5e;
-}
-#main-navigation ul li a:hover{
-  text-decoration: underline;
-}
-#launch-logo{
-  text-align: center;
+span.icon-bar{
+  background-color: #f17548;
 }
