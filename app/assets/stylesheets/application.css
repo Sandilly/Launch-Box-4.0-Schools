@@ -14,12 +14,7 @@
  *= require_self
 
  */
-<<<<<<< HEAD
 
-
-
- 
-=======
  
 /*-----------------------------------------*/
 /*----------------Launch Box---------------*/
@@ -29,4 +24,4 @@ body header #launch-logo{
   text-align: center;
   margin: 30px auto;
 }
->>>>>>> responsive but menu bar when shrink is broken
+
