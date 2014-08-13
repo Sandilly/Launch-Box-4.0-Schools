@@ -1,21 +1,57 @@
 html {
 	font-family: 'Gotham-book',Montserrat,helvetica, arial;
+	color: #5e5e5e;
 }
 
 h2 {
 	text-align: center;
 }
+
 #vid_text {
-		height: 30%;
-		background: blue;
+		padding: 3%; 
+		height: 40%;
+		width: 100%;
+		vertical-align: middle; 
+		background: #8DAA33;
 }
 
 .text {
-	font-family: 'Gotham-book',Montserrat,helvetica, arial;
+	font-family: 'Gotham-book',Montserrat,helvetica, arial; 
+	width: 45%;
+	padding: 2%;
+	vertical-align: middle; 
+	float: left;
+	margin-right: 1%;
+	background: yellow;
+}
+
+.video {
+	background: red;
+	padding: 2%;
+	margin: 0 auto;
+	float: left;
+}
+
+	.pdf_share_btn {
+	width:45%;
+	height: 5%;
+	background: orange;
 }
 
 #practiced {
 		height: 20%;
+		clear: both;
+
+}
+
+
+
+hr {
+	margin-left: 3%;
+	margin-right: 3%;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 #additionalTools {
@@ -28,7 +64,17 @@ h2 {
 	width: 30%;
 }
 
+html body #additional-tools #three-cols {
+	margin: 5% auto;
+	width: 90%;
+	border: 5px solid black;
+	height: 40%;
+	padding: 10%;
+	background-color: pink;
+}
+
 #left-col {
+		margin: 3% 5% 3% 5%;
 		float: left;
 }
 

@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
-  # get 'pages/home'
   root 'pages#home'
-
   get 'pages/tool_page'
 
   # The priority is based upon order of creation: first created -> highest priority.
