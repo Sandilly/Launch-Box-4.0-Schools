@@ -93,34 +93,7 @@ body { color:#5e5e5e; font-size:16px; font-family:'Gotham-book',Montserrat,helve
 		font-weight: normal;
 		font-style: normal;
 	}
-<<<<<<< HEAD
 
-=======
-/*	@font-face {
-    font: {
-       family: 'Junction';
-       weight: 'normal';
-       style: 'normal';
-    }
-    src: asset-url('Junction-webfont.eot', font);
-    src: asset-url('Junction-webfont.eot', font) format('embedded-opentype'),
-         asset-url('Junction-webfont.woff', font) format('woff'),
-         asset-url('Junction-webfont.ttf', font) format('truetype'),
-         asset-url('Junction-webfont.svg#JunctionRegular', font) format('svg')
-}*/
-	@font-face {
-    font: {
-       family: 'Gotham-Medium';
-       weight: 'normal';
-       style: 'normal';
-    }
-    src: asset-url('Junction-webfont.eot', font);
-    src: asset-url('Junction-webfont.eot', font) format('embedded-opentype'),
-         asset-url('Junction-webfont.woff', font) format('woff'),
-         asset-url('Junction-webfont.ttf', font) format('truetype'),
-         asset-url('Junction-webfont.svg#JunctionRegular', font) format('svg')
-}
->>>>>>> 79b0410e8aa03140bd2e607ea1ffe64203f49249
 	@font-face {
 		font-family: 'Gotham-Medium';
 		src: url('font/Gotham-Medium.eot');
@@ -137,8 +110,6 @@ body { color:#5e5e5e; font-size:16px; font-family:'Gotham-book',Montserrat,helve
 		font-weight: normal;
 		font-style: normal;
 	}
-
-
 
 	html,body{
 		width:100%;
