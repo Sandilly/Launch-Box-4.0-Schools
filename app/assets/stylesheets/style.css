@@ -61,7 +61,7 @@ body { color:#5e5e5e; font-size:16px; font-family:'Gotham-book',Montserrat,helve
 		list-style:none;
 	}
 	a { cursor:pointer; }
-
+	
 /* ------------------------------------------------------------------------------- */
 /*  1. General
 /* ------------------------------------------------------------------------------- */
@@ -93,7 +93,34 @@ body { color:#5e5e5e; font-size:16px; font-family:'Gotham-book',Montserrat,helve
 		font-weight: normal;
 		font-style: normal;
 	}
+<<<<<<< HEAD
 
+=======
+/*	@font-face {
+    font: {
+       family: 'Junction';
+       weight: 'normal';
+       style: 'normal';
+    }
+    src: asset-url('Junction-webfont.eot', font);
+    src: asset-url('Junction-webfont.eot', font) format('embedded-opentype'),
+         asset-url('Junction-webfont.woff', font) format('woff'),
+         asset-url('Junction-webfont.ttf', font) format('truetype'),
+         asset-url('Junction-webfont.svg#JunctionRegular', font) format('svg')
+}*/
+	@font-face {
+    font: {
+       family: 'Gotham-Medium';
+       weight: 'normal';
+       style: 'normal';
+    }
+    src: asset-url('Junction-webfont.eot', font);
+    src: asset-url('Junction-webfont.eot', font) format('embedded-opentype'),
+         asset-url('Junction-webfont.woff', font) format('woff'),
+         asset-url('Junction-webfont.ttf', font) format('truetype'),
+         asset-url('Junction-webfont.svg#JunctionRegular', font) format('svg')
+}
+>>>>>>> 79b0410e8aa03140bd2e607ea1ffe64203f49249
 	@font-face {
 		font-family: 'Gotham-Medium';
 		src: url('font/Gotham-Medium.eot');
@@ -340,15 +367,13 @@ img, div {
 
 	#navigation {
 
-		position: relative;
+		position: relative;  
 		width: 100%;
 		height: 100px;
-<<<<<<< HEAD
-		z-index: 1000;
-=======
+
 		z-index: 1000;	
 		padding-bottom: 0;	
->>>>>>> add styles
+
 	}
 
 	#logo {
@@ -398,7 +423,7 @@ img, div {
 	}
 
 	#navigation a, #navigation a:active, #navigation a:visited {
-		font-family: Gotham-Medium;
+		/*font-family: Gotham-Medium;*/
 		color:#6d6e71;
 		font-size: 18px;
 		font-weight: normal;
@@ -2263,6 +2288,13 @@ line-height: 30px;
 		width:720px;
 	}
 	.container.blog.single .sidebar.right { width:720px;}
+<<<<<<< HEAD
+=======
+	
+	#launch-logo{
+		width:300px;
+	}
+>>>>>>> 79b0410e8aa03140bd2e607ea1ffe64203f49249
 
 	#navigation.with-image-logo h2 img {
 		width:150px;
@@ -2792,7 +2824,13 @@ line-height: 30px;
 		margin-left:20px;
 		margin-top:30px;
 	}
+<<<<<<< HEAD
 
+=======
+	#launch-logo{
+		width: 250px;
+	}
+>>>>>>> 79b0410e8aa03140bd2e607ea1ffe64203f49249
 	#navigation.with-image-logo h2 img {
 		width:80px;
 	}

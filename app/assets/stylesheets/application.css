@@ -14,7 +14,6 @@
  *= require_self
 
  */
-<<<<<<< HEAD
 
  
 /*-----------------------------------------*/
@@ -23,12 +22,6 @@
 
 body header #launch-logo{
   text-align: center;
-  margin: 30px auto;
+
 }
 
-=======
-
-
-
- 
->>>>>>> parent of 31b794c... responsive but menu bar when shrink is broken
