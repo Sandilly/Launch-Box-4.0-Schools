@@ -1581,10 +1581,12 @@ text-align: right;
 /* ------------------------------------------------------------------------------- */
 /*  17. Footer
 /* ------------------------------------------------------------------------------- */	
-	
+	.footer{
+		background-color: #ffffff;
+	}
 	
 	.footer-social {
-		background-color: #363942;
+		background-color: #a3a3a3;
 		border-radius: 50px;
 		bottom: 20px;
 		float: left;
@@ -1599,7 +1601,7 @@ text-align: right;
 			}
 	
 	.footer-social img {
-		max-width: 15px;
+		/*max-width: 15px;*/
 		opacity: 1;
 		padding: 4px;
 	}
