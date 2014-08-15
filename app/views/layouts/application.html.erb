@@ -19,10 +19,12 @@
     <header>
       
     <%= render 'layouts/navigation' %>
-    <div id="launch-logo">
-      <a href="#">
-        <img src="/assets/launchbox.png" alt="Launch Logo" />
-      </a>
+    <div id="page-header">
+      <% if content_for?(:splash_logo) %>
+          <%= image_tag("launchbox.png") %>
+        <% else %>
+          <%= yield(:header)%>
+        <% end %>
     </div>
     </header>
     <main role="main">
