@@ -10,19 +10,10 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require bootstrap
  *= require_tree .
  *= require_self
 
  */
 
  
-/*-----------------------------------------*/
-/*----------------Launch Box---------------*/
-/*-----------------------------------------*/
-
-body header #launch-logo{
-  text-align: center;
-  margin: 30px auto;
-
-}
-

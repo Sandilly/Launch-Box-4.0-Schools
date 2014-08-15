@@ -93,34 +93,7 @@ body { color:#5e5e5e; font-size:16px; font-family:'Gotham-book',Montserrat,helve
 		font-weight: normal;
 		font-style: normal;
 	}
-<<<<<<< HEAD
 
-=======
-/*	@font-face {
-    font: {
-       family: 'Junction';
-       weight: 'normal';
-       style: 'normal';
-    }
-    src: asset-url('Junction-webfont.eot', font);
-    src: asset-url('Junction-webfont.eot', font) format('embedded-opentype'),
-         asset-url('Junction-webfont.woff', font) format('woff'),
-         asset-url('Junction-webfont.ttf', font) format('truetype'),
-         asset-url('Junction-webfont.svg#JunctionRegular', font) format('svg')
-}*/
-	@font-face {
-    font: {
-       family: 'Gotham-Medium';
-       weight: 'normal';
-       style: 'normal';
-    }
-    src: asset-url('Junction-webfont.eot', font);
-    src: asset-url('Junction-webfont.eot', font) format('embedded-opentype'),
-         asset-url('Junction-webfont.woff', font) format('woff'),
-         asset-url('Junction-webfont.ttf', font) format('truetype'),
-         asset-url('Junction-webfont.svg#JunctionRegular', font) format('svg')
-}
->>>>>>> 79b0410e8aa03140bd2e607ea1ffe64203f49249
 	@font-face {
 		font-family: 'Gotham-Medium';
 		src: url('font/Gotham-Medium.eot');
@@ -137,8 +110,6 @@ body { color:#5e5e5e; font-size:16px; font-family:'Gotham-book',Montserrat,helve
 		font-weight: normal;
 		font-style: normal;
 	}
-
-
 
 	html,body{
 		width:100%;
@@ -1629,7 +1600,7 @@ text-align: right;
 			}
 
 	.footer-social img {
-		max-width: 15px;
+		/*max-width: 15px;*/
 		opacity: 1;
 		padding: 4px;
 	}
@@ -2289,13 +2260,12 @@ line-height: 30px;
 	}
 	.container.blog.single .sidebar.right { width:720px;}
 
-	#launch-logo{
+	#page-header{
 		width:300px;
 	}
 
-
 	#navigation.with-image-logo h2 img {
-		width:150px;
+		width:175px;
 	}
 
 	#navigation.with-image-logo #logo {
@@ -2309,7 +2279,7 @@ line-height: 30px;
 		top: 30px;
 		right: 50px;
 		border: solid 1px #efefef;
-		background: #fff url(../images/icon-menu.png) no-repeat 10px 11px;
+		background: #fff url(assets/icon-menu.png) no-repeat 10px 11px;
 		border-radius: 3px;
 
 	}
@@ -2334,7 +2304,7 @@ line-height: 30px;
 	}
 
 	#navigation ul:hover .current {
-		background: url(../images/icon-check.png) no-repeat 10px 7px;
+		background: url(assets/icon-check.png) no-repeat 10px 7px;
 	}
 
 	#navigation ul li:hover a, #navigation ul li.current a {
@@ -2506,6 +2476,10 @@ line-height: 30px;
 		width:440px;
 	}
 	.container.blog.single .sidebar.right { width:440px;}
+	
+	#page-header{
+		width:250px;
+	}
 
 	#logo {
 		margin-left:20px;
@@ -2518,7 +2492,7 @@ line-height: 30px;
 		top: 30px;
 		right: 20px;
 		border: solid 1px #efefef;
-		background: #fff url(../images/icon-menu.png) no-repeat 10px 11px;
+		background: #fff url(assets/icon-menu.png) no-repeat 10px 11px;
 		border-radius: 3px;
 	}
 
@@ -2542,7 +2516,7 @@ line-height: 30px;
 	}
 
 	#navigation ul:hover .current {
-		background: url(../images/icon-check.png) no-repeat 10px 7px;
+		background: url(assets/icon-check.png) no-repeat 10px 7px;
 	}
 
 	#navigation ul li:hover a, #navigation ul li.current a {
@@ -2809,12 +2783,10 @@ line-height: 30px;
 		margin-top:30px;
 	}
 
-	#launch-logo{
-		width: 250px;
-	}
 
 	#navigation.with-image-logo h2 img {
-		width:80px;
+		margin-top: 15px;
+		width:120px;
 	}
 
 	#navigation.with-image-logo #logo {
@@ -2829,7 +2801,7 @@ line-height: 30px;
 		top: 30px;
 		right: 20px;
 		border: solid 1px #efefef;
-		background: #fff url(../images/icon-menu.png) no-repeat 10px 11px;
+		background: #fff url(assets/icon-menu.png) no-repeat 10px 11px;
 		border-radius: 3px;
 	}
 
@@ -2853,7 +2825,7 @@ line-height: 30px;
 	}
 
 	#navigation ul:hover .current {
-		background: url(../images/icon-check.png) no-repeat 10px 7px;
+		background: url(assets/icon-check.png) no-repeat 10px 7px;
 	}
 
 	#navigation ul li:hover a, #navigation ul li.current a {
