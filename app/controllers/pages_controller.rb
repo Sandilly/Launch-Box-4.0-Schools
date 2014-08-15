@@ -6,4 +6,8 @@ class PagesController < ApplicationController
   def tool_page
 
   end
+
+  def prototype_index
+
+  end
 end
