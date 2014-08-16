@@ -12,4 +12,17 @@
  *
  *= require_tree .
  *= require_self
+
  */
+
+ 
+/*-----------------------------------------*/
+/*----------------Launch Box---------------*/
+/*-----------------------------------------*/
+
+body header #launch-logo{
+  text-align: center;
+  margin: 30px auto;
+
+}
+
