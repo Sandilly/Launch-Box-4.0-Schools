@@ -154,7 +154,7 @@ img, div {
 		float:left;
 	}
 
-                                                                  	h1 { font-size: 44px; font-weight:bold; line-height:55px; font-family: 'Gotham','helvetica,"Muli",sans-serif' , 'arial'; }
+    h1 { font-size: 50px; font-weight:bold; line-height:55px; font-family: 'Gotham','helvetica,"Muli",sans-serif' , 'arial'; }
     h2 { font-size: 36px; font-weight:bold; line-height:36px; font-family: 'Gotham','helvetica,"Muli",sans-serif' , 'arial'; }
     h3 { font-size: 30px; font-weight:bold; line-height:30px; font-family: 'gotham','helvetica,"Muli",sans-serif' , 'arial'; }
     h4 { font-size: 18px; font-weight:bold; line-height:24px; font-family: 'gotham','gotham,"Muli",sans-serif' , 'arial'; }
@@ -2260,10 +2260,13 @@ line-height: 30px;
 	}
 	.container.blog.single .sidebar.right { width:720px;}
 
-	#page-header{
+	div#page-header{
 		width:300px;
 	}
 
+	div#page-header h1{
+		font-size: 40px;
+	}
 
 
 	#navigation.with-image-logo h2 img {
@@ -2775,7 +2778,9 @@ line-height: 30px;
 		background: url("../images/culture-bg-vert-2.png") repeat scroll center 0;
 	}
 
-
+	div#page-header h1{
+		font-size: 30px;
+	}
 	.container {
 		width:280px;
 	}
