@@ -1,66 +1,92 @@
 <% content_for(:header) do %>
-	<h1> PROTOTYPING </h1>
+<h1> PROTOTYPING </h1>
 <% end %>
 
 <section id="vid_text"><!--video and text section -->
 	<div class="text">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	</div>
+		<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
 
-	<div class="video">
-		<iframe width="560" height="315" src="//www.youtube.com/embed/46La-hV_PLs" frameborder="0" allowfullscreen></iframe>
-	</div>
-	<div class="pdf_share_btn">
+		<div class="video">
+			<iframe width="560" height="315" src="//www.youtube.com/embed/46La-hV_PLs" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div id="pdf_share_btn" style="
+    width: 450px;
+    padding-left: 0px;
+    padding-right: 10px;
+    margin-left: 7%;
+">
 
-		<p>Dowload materials</p>
-		<p>Share</p>
-	</div>
-</section><!--end of text and vid section -->
-<hr>
+			<a href="#"><button type="button" class="btn btn-default" style="
+    height: 65px;
+    width: 160px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 5px;
+    background-color: #2d9ed4;
+    color: white;
+">Download materials</button></a>
 
+			<a href="#"><button type="button" class="btn btn-default" style="
+    height: 65px;
+    width: 160px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 5px;
+    background-color: #f37441;
+    color: white;
+    /* float: left; */
+">Share!</button></a>
+		</div>
+	
+		</div>
+	</section><!--end of text and vid section -->
+	<hr>
 
-<section id="practiced"><!--People who practiced -->
-<section><!--People who practiced -->
+	<section id="practiced"><!--People who practiced -->
+		<h2>See who else practiced this.</h2>
+		<div id="carousel"></div>
+	</section><!--end of People who practiced -->
 
-	<h2>See who else practiced this.</h2>
-	<div id="carousel"></div>
-</section><!--end of People who practiced -->
+	<hr>
 
-<hr>
+	<section id="additional-tools" style="padding-top: 0px; margin-top: 0px;"><!--Additional tools -->
+		<div id="additional-header" style="">
+		<h2>Addtional tools.</h2>
+		</div>
 
+		<div id="three-cols">
+			<div id="left-col">
+				<a href="#">
+					<button type="button" class="btn btn-default" style="margin-bottom: 40px; margin-right: 20px;height: 100px;">Link 1</button>
+				</a>
+				<!-- <br> -->
+				<a href="#">
+					<button type="button" class="btn btn-default" style="margin-bottom: 40px; margin-right: 20px;height: 100px;">Link 2</button>
+				</a>
+			</div>
 
-<section id="additional-tools"><!--Additional tools -->
-	<h2>Addtional tools.</h2>
+			<div id="center-col">
+				<a href="#">
+					<button type="button" class="btn btn-default" style="margin-bottom: 40px; margin-right: 20px;height: 100px;">Link 3</button>
+				</a>
+				<!-- <br> -->
+				<a href="#">
+					<button type="button" class="btn btn-default" style="margin-bottom: 40px; margin-right: 20px;height: 100px;">Link 4</button>
+				</a>
+			</div>
 
-	<span id="left-col">
-		<a href="#"><button type="button" class="btn btn-default">Link 1</button></a>
-		<br>
-		<a href="#"><button type="button" class="btn btn-default">Link 2</button></a>
-	</span>
+			<div id="right-col">
+				<a href="#">
+					<button type="button" class="btn btn-default" style="margin-bottom: 40px; margin-right: 20px;height: 100px;">Link 5</button>
+				</a>
+				<!-- <br> -->
+				<a href="#">
+					<button type="button" class="btn btn-default" style="margin-bottom: 40px; margin-right: 20px;height: 100px;">Link 6</button>
+				</a>
+			</div>
+		</div>
+	</section><!--end of Additional tools  -->
 
-	<span id="center-col">
-		<a href="#"><button type="button" class="btn btn-default">Link 3</button></a>
-		<br>
-		<a href="#"><button type="button" class="btn btn-default">Link 4</button></a>
-	</span>
-
-	<span id="right-col">
-		<a href="#"><button type="button" class="btn btn-default">Link 5</button></a>
-		<br>
-	  <a href="#"><button type="button" class="btn btn-default">Link 6</button></a>
-	</span>
-
-<section><!--Additional tools -->
-	<h2>Addtional tools.</h2>
-	<a href="#">Link 1</a>
-	<a href="#">Link 2</a>
-	<a href="#">Link 3</a>
-	<a href="#">Link 4</a>
-	<a href="#">Link 5</a>
-	<a href="#">Link 6</a>
-</section><!--end of Additional tools  -->

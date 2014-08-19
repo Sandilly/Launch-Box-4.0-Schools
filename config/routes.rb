@@ -1,8 +1,9 @@
-Rails.application.routes.draw do
-  # get 'pages/home'
+  Rails.application.routes.draw do
   root 'pages#home'
+  
+  get 'prototyping/paper-prototyping' => 'pages#tool_page'
 
-  get 'pages/tool_page'
+  get 'prototyping/project-page' => 'pages#project_page'
 
   get 'pages/prototype_index'
 
