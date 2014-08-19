@@ -32,9 +32,9 @@ h2 {
 	float: left;
 }
 
-	.pdf_share_btn {
+	#pdf_share_btn {
 	width:45%;
-	height: 1%;
+	height: 5%;
 	background: orange;
 	padding: 0 11%;
 }
@@ -42,9 +42,7 @@ h2 {
 #practiced {
 		height: 20%;
 		clear: both;
-
 }
-
 
 hr {
 	margin-left: 3%;
@@ -54,35 +52,75 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-#additionalTools {
-		height: 30%;
-		margin: auto;
-  	position: relative;
+#carousel {
+	height: 200px;
 }
 
-#additional-tools span {
-	width: 30%;
+
+section #additionalTools {
+		height: 20%;
+		margin: auto 0;
+  	// position: relative;
 }
 
-html body #additional-tools #three-cols {
+html body #additional-tools {
 	margin: 5% auto;
 	width: 90%;
 	border: 5px solid black;
 	height: 40%;
-	padding: 10%;
-	background-color: pink;
+	padding: 7%;
+	// background-color: pink;
 	min-height: 100%;
 }
 
+#three-cols {
+	width: 900px; 
+	height: 500px;
+} // This is for the container of the three divs inside of the div
+
 #left-col {
-		margin: 3% 5% 3% 5%;
 		float: left;
+		height: 200px;
+		width: 300px;
+		padding-right: 2%;
+		padding-left: 2%;
+		// background-color: green;
 }
 
 #center-col {
-		float: left;
+	height: 200px; 
+	width: 300px; 
+	// background-color: green; 
+	padding-right: 2%;
+	padding-left: 2%;
+	float: left;
 }
 
 #right-col {
-		float: left;
+	height: 200px; 
+	width: 300px; 
+	padding-left: 2%;
+	padding-right: 2%;
+	// background-color: green; 
+	float: left;
+}
+
+
+
+#additional-tools .btn-default {
+	height: 80px;
+	color: white;
+	width: 255px;
+	border: 15px solid white;
+	border-color: #2d9ed4;
+	background-color: #2d9ed4;
+}
+
+// body #left-col button #christina {
+// 	padding-bottom: 2%;
+// 	margin: 1%;
+// }
+
+.share .btn .btn-default {
+	background-color: #f37441;
 }
