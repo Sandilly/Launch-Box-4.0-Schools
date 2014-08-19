@@ -5,10 +5,12 @@ html {
 
 h2 {
 	text-align: center;
+	padding-bottom: 45px;
+	padding-top: 0px;
 }
 
 #vid_text {
-		padding: 3%; 
+		padding: 5% 3%; 
 		height: 40%;
 		width: 100%;
 		vertical-align: middle; 
@@ -30,11 +32,12 @@ h2 {
 	padding: 2%;
 	margin: 0 auto;
 	float: left;
+	vertical-align: center;
 }
 
 	#pdf_share_btn {
 	width:45%;
-	height: 5%;
+	height: 100;
 	background: orange;
 	padding: 0 11%;
 }
@@ -57,25 +60,26 @@ hr {
 }
 
 
-section #additionalTools {
-		height: 20%;
+#additionalTools #addtional-header {
+		height: 10%;
 		margin: auto 0;
-  	// position: relative;
+  	position: relative;
 }
 
 html body #additional-tools {
 	margin: 5% auto;
 	width: 90%;
 	border: 5px solid black;
-	height: 40%;
-	padding: 7%;
+	height: 30%;
+	padding: 8%;
 	// background-color: pink;
 	min-height: 100%;
 }
 
 #three-cols {
 	width: 900px; 
-	height: 500px;
+	height: 180px;
+	margin-bottom: 0;
 } // This is for the container of the three divs inside of the div
 
 #left-col {
@@ -104,7 +108,9 @@ html body #additional-tools {
 	// background-color: green; 
 	float: left;
 }
-
+#additional-tools {
+	height: 20%;
+}
 
 
 #additional-tools .btn-default {
@@ -120,6 +126,11 @@ html body #additional-tools {
 // 	padding-bottom: 2%;
 // 	margin: 1%;
 // }
+
+#vid_text .btn .btn-default {
+	border-color: #2d9ed4;
+	background-color: #2d9ed4;
+}
 
 .share .btn .btn-default {
 	background-color: #f37441;
