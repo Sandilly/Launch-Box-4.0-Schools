@@ -4,6 +4,9 @@ class PagesController < ApplicationController
   end
 
   def tool_page
-
   end
+
+  def project_page
+  end
+  
 end
