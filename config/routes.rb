@@ -1,8 +1,9 @@
   Rails.application.routes.draw do
   root 'pages#home'
-  get 'paper-prototyping' => 'pages#tool_page'
+  
+  get 'prototyping/paper-prototyping' => 'pages#tool_page'
 
-  get 'pages/project_page'
+  get 'prototyping/project-page' => 'pages#project_page'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
