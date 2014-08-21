@@ -42,7 +42,10 @@
         </div>
 
         <!-- Prev/next controls -->
-        <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true">‹ Prev</a>
-        <a href="#" class="jcarousel-control-next inactive" data-jcarouselcontrol="true">Next ›</a>
-
+        <div class="prev-btn carousel-btn">
+          <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true">‹ Prev</a>
+        </div>
+        <div class="next-btn carousel-btn">
+          <a href="#" class="jcarousel-control-next inactive" data-jcarouselcontrol="true">Next ›</a>
+        </div>
     </div>
