@@ -28,10 +28,11 @@ div .jumbotron{
 }
 
 div .tools-box{
-  border:1px solid #a3a3a3;
+  border:1px solid #eee;
   padding:15px 0;
   margin-bottom: 48px;
   overflow: auto;
+  overflow-y:hidden;
 }
 
 div .tools{
@@ -65,11 +66,11 @@ div .box3{
 }
 
 div #lb-intro{
-  border:1px solid #a3a3a3;
+  border:1px solid #eee;
 }
 
 div #lb-projects{
-  border:1px solid #a3a3a3;
+  border:1px solid #eee;
 }
 
 div .hover-text{
@@ -82,9 +83,9 @@ div .hover-text{
 }
 
 .carousel{
-  border:1px solid #a3a3a3;
+  border:1px solid #eee;
   padding: 15px;
-  background-color:#eee;
+  // background-color:#eee;
 }
 
 .carousel img{
