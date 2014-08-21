@@ -1,0 +1,48 @@
+<h2>BROWSE PROJECTS</h2>
+    <!--
+    Mutual wrapper, encloses the carousel and the plugin elements to
+    enable auto-detection of the carousel for the plugins.
+    -->
+    <div class="jcarousel-wrapper carousel">
+
+        <!-- Carousel -->
+        <div class="jcarousel row" data-jcarousel="true">
+            <ul style="left: -2589px; top: 0px;">
+                <li>
+                  <a href="http://www.google.com" target="_blank">
+                    <img src="/assets/placeholder.png" width="250" height="150" alt="">
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.youtube.com" target="_blank">
+                    <img src="/assets/placeholder.png" width="250" height="150" alt="">
+                  </a>                        
+                </li>
+                <li>
+                  <a href="http://www.twitter.com" target="_blank">
+                    <img src="/assets/placeholder.png" width="250" height="150" alt="">
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.facebook.com" target="_blank">
+                    <img src="/assets/placeholder.png" width="250" height="150" alt="">
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.cnn.com" target="_blank">
+                    <img src="/assets/placeholder.png" width="250" height="150" alt="">
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.cracked.com" target="_blank">
+                    <img src="/assets/placeholder.png" width="250" height="150" alt="">
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Prev/next controls -->
+        <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true">‹ Prev</a>
+        <a href="#" class="jcarousel-control-next inactive" data-jcarouselcontrol="true">Next ›</a>
+
+    </div>

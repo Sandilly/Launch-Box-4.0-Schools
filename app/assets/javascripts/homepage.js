@@ -1,3 +1,1 @@
-function hoverText(){
-  alert("hi");
-}
+ // $(".tools .boxes .hover-text").hide();

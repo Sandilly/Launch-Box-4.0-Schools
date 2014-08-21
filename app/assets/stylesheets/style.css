@@ -66,7 +66,7 @@ body { color:#5e5e5e; font-size:16px; font-family:'Gotham-book',Montserrat,helve
 /*  1. General
 /* ------------------------------------------------------------------------------- */
 
-	@font-face {
+	/*@font-face {
 		font-family: 'BebasRegular';
 		src: url('font/BEBAS___-webfont.eot');
 		src: url('font/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
@@ -76,7 +76,7 @@ body { color:#5e5e5e; font-size:16px; font-family:'Gotham-book',Montserrat,helve
 		font-weight: normal;
 		font-style: normal;
 
-	}
+	}*/
 
 	@font-face {
 		font-family: 'Gotham-Bold';
