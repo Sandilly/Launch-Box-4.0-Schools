@@ -5,7 +5,7 @@
 
   get 'prototyping/project-page' => 'pages#project_page'
 
-  get 'pages/prototype_index'
+  get 'prototyping/prototype-index' => 'pages#prototype_index'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
