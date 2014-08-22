@@ -3561,7 +3561,7 @@ Notify box
 }
 
 .pricing-table .column h2 {
-	color:%secondary; /* Color Heading Tabels */
+	/*color:%secondary; */
 	text-transform:uppercase;
 	font-size:28px;
 }
@@ -3592,7 +3592,7 @@ Notify box
     padding: 26px 20px 23px;
 }
 .pricing-table p {
-    color: %secondary;
+    /*color: %secondary;*/
     font-size: 12px;
     font-weight: 200;
     margin: 0;
@@ -3639,12 +3639,12 @@ Notify box
 .pricing-table-second h2 {
     color: #fff;
     font-weight: 200;
-	background:%secondary;
+	/*background:%secondary;*/
 	padding:20px 0px;
 	font-weight:bold;
 }
 .pricing-table-second h4 span {
-    color: %secondary;
+    /*color: %secondary;*/
     vertical-align: top;
 }
 .pricing-table-second ul li {
