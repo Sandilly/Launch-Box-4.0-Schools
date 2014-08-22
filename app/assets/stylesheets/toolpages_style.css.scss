@@ -6,36 +6,41 @@ html {
 h2 {
 	text-align: center;
 	padding-bottom: 45px;
-	padding-top: 0px;
+	padding-top: 9%;
+	margin-top: 5%;
 }
+
+
 
 #vid_text {
 		padding: 1% 3% 5% 3%;  
 		height: 40%;
-		width: 100%;
+		width: 101%;
 		vertical-align: middle; 
 		// background: #8DAA33;
 }
 
 .text {
 	font-family: 'Gotham-book',Montserrat,helvetica, arial; 
-	width: 45%;
-	padding: 2%;
+	width: 35%;
+	padding: 1%;
 	vertical-align: middle; 
 	float: left;
-	margin-right: 3%;
+	margin-right: 4%;
 	// background: yellow;
 }
-
+.text p {
+	text-align: left;
+}
 .video {
 	// background: red;
-	padding: 2%;
-	margin: 0 auto;
+	padding: 1%;
+	// margin: 0 auto;
 	float: left;
-	vertical-align: center;
+	vertical-align: middle;
 }
 
-	#pdf_share_btn {
+#pdf_share_btn {
 	width:45%;
 	height: 100;
 	// background: orange;
@@ -45,6 +50,10 @@ h2 {
 #practiced {
 		height: 20%;
 		clear: both;
+}
+
+#practiced h2 {
+		padding-top: 0%
 }
 
 hr {
@@ -60,7 +69,7 @@ hr {
 }
 
 
-#additionalTools #addtional-header {
+#additionalTools #addtional-header h2{
 		height: 10%;
 		margin: auto 0;
   	position: relative;
@@ -68,18 +77,21 @@ hr {
 
 html body #additional-tools {
 	margin: 5% auto;
-	width: 90%;
+	 // width: 90%;
 	// border: 5px solid black;
-	height: 30%;
-	padding: 8%;
+	 height: 30%;
+	// padding: 8%;
 	// background-color: pink;
 	min-height: 100%;
 }
 
 #three-cols {
-	width: 900px; 
-	height: 180px;
-	margin-bottom: 0;
+	width: 96%;
+	// width: 900px; 
+	height: 427px;
+	margin: 0 auto;
+	padding-left: 5%;
+	padding-top: 2%;
 } // This is for the container of the three divs inside of the div
 
 #left-col {
@@ -108,6 +120,11 @@ html body #additional-tools {
 	// background-color: green; 
 	float: left;
 }
+
+#addtional-header {
+	heigt: 1%;
+}
+
 #additional-tools {
 	height: 20%;
 }
