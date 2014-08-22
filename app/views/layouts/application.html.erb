@@ -21,18 +21,19 @@
     <%= render 'layouts/navigation' %>
     <div id="page-header">
       <% if content_for?(:splash_logo) %>
-          <%= image_tag("launchbox.png") %>
-        <% else %>
-          <%= yield(:header)%>
-        <% end %>
+        <%= image_tag("launchbox.png") %>
+      <% else %>
+        <%= yield(:header)%>
+      <% end %>
     </div>
     </header>
-    <main role="main">
+    <main role="main" class="col-lg-10 col-lg-offset-1">
       <div class="container-fluid">
-       <%#= render 'layouts/messages' %>
        <%= yield %>
       </div>
     </main>
     <%= render 'layouts/footer' %>
   </body>
 </html>
+
+

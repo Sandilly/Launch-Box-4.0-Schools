@@ -14,9 +14,88 @@ body header #page-header{
 
 main{
   min-height:450px;
+  margin: 0 auto;
+
+}
+main h2{
+  font-family: "Gotham-Medium";
+  padding-bottom:15px;
 }
 
+div .jumbotron{
+  line-height: 1.5em;
 
+}
 
+div .tools-box{
+  border:1px solid #eee;
+  padding:15px 0;
+  margin-bottom: 48px;
+  overflow: auto;
+  overflow-y:hidden;
+}
 
+div .tools{
+  min-height: 250px;
+  //padding:0;
+  //:10px;
+  //background-image: url('/assets/placeholder.png');
+  // margin-right: 15px;
+  //width: 30.94%;
+}
+div .boxes{
+  background-color:#2d9ed4;
+}
 
+div .boxes h3{
+  text-align: center; 
+  color: #fff;
+  padding: 10px 0;
+}
+
+div .box1{
+  
+}
+
+div .box2{
+
+}
+
+div .box3{
+
+}
+
+div #lb-intro{
+  border:1px solid #eee;
+}
+
+div #lb-projects{
+  border:1px solid #eee;
+}
+
+div .hover-text{
+  // display:none;
+  background-color: #2d9ed4;
+  padding:15px;
+  height:250px;
+  width:100%;
+  color:#fff
+}
+
+.carousel{
+  border:1px solid #eee;
+  padding: 15px;
+  // background-color:#eee;
+}
+
+.carousel img{
+  margin:0 15px;
+}
+
+.carousel-btn{
+  clear:both;
+  padding:10px;
+  background-color:#eee;
+  border-radius:25px;
+  color:#fff;
+}
