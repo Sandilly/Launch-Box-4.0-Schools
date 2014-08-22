@@ -86,6 +86,7 @@ div .hover-text{
   border:1px solid #eee;
   padding: 15px;
   // background-color:#eee;
+  position:relative;
 }
 
 .carousel img{
@@ -93,9 +94,11 @@ div .hover-text{
 }
 
 .carousel-btn{
-  clear:both;
-  padding:10px;
-  background-color:#eee;
-  border-radius:25px;
-  color:#fff;
+  
+}
+
+
+.inactive{
+opacity: .5;
+cursor: default;
 }

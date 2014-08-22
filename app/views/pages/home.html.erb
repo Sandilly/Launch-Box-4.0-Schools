@@ -20,7 +20,7 @@
         <h3>EMPATHY</h3>
         
         <div class="hover-box">
-          <img src="/assets/placeholder.png" />
+          <%= image_tag "placeholder.png" %>
           <div class="hover-text">
             Aenean in magna imperdiet, imperdiet velit vitae, ultrices velit. Vivamus faucibus, diam sed rutrum porttitor, magna lacus imperdiet augue, vel suscipit risus turpis vel sapien. Aenean vitae magna mauris. Duis ante tortor, eleifend accumsan hendrerit sed, venenatis volutpat leo.
           </div>
@@ -31,7 +31,7 @@
       <div class="box2 boxes">
         <h3>UNBUNDLING</h3>
         <div class="hover-box">
-          <img src="/assets/placeholder.png" />
+           <%= image_tag "placeholder.png" %>
           <div class="hover-text">
              Vivamus varius in augue non imperdiet. Fusce feugiat lobortis erat a tincidunt. In nunc erat, cursus mattis suscipit eget, bibendum at dui. Donec id ultrices libero. Ut mattis orci quis neque feugiat tincidunt. Proin et velit justo. Morbi tempor mauris urna, quis sollicitudin mauris interdum nec.
           </div>
@@ -44,7 +44,7 @@
           <h3>PROTOTYPING</h3>
       
           <div class="hover-box">
-            <img src="/assets/placeholder.png" />
+            <%= image_tag "placeholder.png" %>
             <div class="hover-text">
               Nunc eu sollicitudin orci. Duis et tempor odio. Praesent molestie ligula nisi, vitae commodo ipsum congue ac. Aenean id aliquam purus, eu sagittis ligula. Sed facilisis convallis dui. Sed imperdiet turpis aliquam arcu rhoncus aliquet. Phasellus dui lacus, faucibus non malesuada et, pharetra vel orci.
             </div>
@@ -58,80 +58,61 @@
 
 <div class="row">
   <h2>BROWSE PROJECTS</h2>
-    <!--
-    Mutual wrapper, encloses the carousel and the plugin elements to
-    enable auto-detection of the carousel for the plugins.
-    -->
-    <div class="jcarousel-wrapper carousel">
+  <div class="jcarousel-wrapper carousel">
 
-        <!-- Carousel -->
-        <div class="jcarousel row" data-jcarousel="true">
-            <ul style="left: -2589px; top: 0px;">
-                <li>
-                  <a href="http://www.google.com" target="_blank">
-                    <img src="/assets/placeholder.png" width="250" height="150" alt="">
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.youtube.com" target="_blank">
-                    <img src="/assets/placeholder.png" width="250" height="150" alt="">
-                  </a>                        
-                </li>
-                <li>
-                  <a href="http://www.twitter.com" target="_blank">
-                    <img src="/assets/placeholder.png" width="250" height="150" alt="">
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.facebook.com" target="_blank">
-                    <img src="/assets/placeholder.png" width="250" height="150" alt="">
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.cnn.com" target="_blank">
-                    <img src="/assets/placeholder.png" width="250" height="150" alt="">
-                  </a>
-                </li>
-                <li>
-                  <a href="http://www.cracked.com" target="_blank">
-                    <img src="/assets/placeholder.png" width="250" height="150" alt="">
-                  </a>
-                </li>
-            </ul>
-        </div>
+      <!-- Carousel -->
+      <div class="jcarousel" data-jcarousel="true">
+          <ul style="left: 0px; top: 0px;">
+              <li>
+                <%= image_tag "placeholder.png" %>
+              <li>
+                <%= image_tag "placeholder.png" %>
+              </li>
+              <li>
+                <%= image_tag "placeholder.png" %>
+              </li>
+              <li>
+                <%= image_tag "placeholder.png" %>
+              </li>
+              <li>
+                <%= image_tag "placeholder.png" %>
+              </li>
+              <li>
+                <%= image_tag "placeholder.png" %>
+              </li>
+              <li>
+                <%= image_tag "placeholder.png" %>
+              </li>
+              <li>
+                <%= image_tag "placeholder.png" %>
+              </li>
+              <li>
+                <%= image_tag "placeholder.png" %>
+              </li>
+              <li>
+                <%= image_tag "placeholder.png" %>
+              </li>
+              <li>
+                <%= image_tag "placeholder.png" %>
+              </li>
+              <li>
+                <%= image_tag "placeholder.png" %>
+              </li>
+          </ul>
+      </div>
 
-        <!-- Prev/next controls -->
-        
-        <a href="#" class="jcarousel-control-prev carousel-btn" data-jcarouselcontrol="true">‹</a>
+      <!-- Prev/next controls -->
 
-        <a href="#" class="jcarousel-control-next carousel-btn inactive" data-jcarouselcontrol="true">›</a>
+      <div class="carousel-btn">
+        <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true">‹</a>
+      </div>
+      <div class="carousel-btn">
+        <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true">›</a>
+      </div>
 
-    </div>
-        </div>
-<!--   <div class="wrapper col-lg-12">
-    <h2>BROWSE PROJECTS</h2>
-    
-    <div class="connected-carousels">
-        <div class="navigation">
-            <a href="#" class="prev prev-navigation" data-jcarouselcontrol="true">‹</a>
-            <a href="#" class="next next-navigation inactive" data-jcarouselcontrol="true">›</a>
-            <div class="carousel carousel-navigation" data-jcarousel="true">
-                <ul style="left: -120px; top: 0px;">
-                    <li data-jcarouselcontrol="true" class="active"><img src="/assets/placeholder.png" width="250" height="150" alt=""></li>
-                    <li data-jcarouselcontrol="true"><img src="/assets/placeholder.png" width="250" height="150" alt=""></li>
-                    <li data-jcarouselcontrol="true"><img src="/assets/placeholder.png" width="250" height="150" alt=""></li>
-                    <li data-jcarouselcontrol="true"><img src="/assets/placeholder.png" width="250" height="150" alt=""></li>
-                    <li data-jcarouselcontrol="true"><img src="/assets/placeholder.png" width="250" height="150" alt=""></li>
-                    <li data-jcarouselcontrol="true"><img src="/assets/placeholder.png" width="250" height="150" alt=""></li>
-                    <li data-jcarouselcontrol="true"><img src="/assets/placeholder.png" width="250" height="150" alt=""></li>
-                    <li data-jcarouselcontrol="true"><img src="/assets/placeholder.png" width="250" height="150" alt=""></li>
-                    <li data-jcarouselcontrol="true"><img src="/assets/placeholder.png" width="250" height="150" alt=""></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-  </div> -->
+  </div>
 </div>
+
 
 
 
