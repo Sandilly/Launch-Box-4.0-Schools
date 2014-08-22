@@ -11,7 +11,15 @@
  * file per style scope.
  *
  *= require bootstrap
- *= require_tree .
+ *= require custom-fonts
+ *= require jcarousel.skeleton
+ *= require pages
+ *= require project_page
+ *= require skin
+ *= require sticky-footer-navbar
+ 
+ *= require toolpages_style
+
  *= require_self
 
  */
