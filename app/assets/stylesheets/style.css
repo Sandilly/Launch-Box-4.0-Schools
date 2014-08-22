@@ -3182,24 +3182,24 @@ line-height: 30px;
 		width: 240px;
 	}
 
-
-/*	.carousel_testimonials li {
+/* Christina - all carousels */
+	.carousel_testimonials li {
 		width: 240px;
-	}*/
+	}
 
-/*	.list_carousel li {
+	.list_carousel li {
 		height: 522px;
 		width: 280px;
-	}*/
+	}
 
-	/*.carousel_testimonials li h1 {font-size: 18px;}*/
+	.carousel_testimonials li h1 {font-size: 18px;}
 
-/*	#map_canvas {
+	#map_canvas {
 		width:100%;
 		height:300px;
-	}*/
+	}
 
-	/*.list_carousel li { background:#fff !important; }*/
+	.list_carousel li { background:#fff !important; }
 	.news .image { width:280px; height:280px; }
 	.news-intro { width:240px; height:225px; }
 	.traction-content .box .equal{padding: 0 5px;}
@@ -3534,8 +3534,8 @@ Notify box
 
 
 
-
-/*.pricing-table {
+/* Christina - all pricing tables */
+.pricing-table {
     margin-bottom: 40px;
     margin-top: 40px;
 }
@@ -3611,8 +3611,8 @@ Notify box
     margin-top:0px!important;
 }*/
 
-
-/*.pricing-table .level-max .footer {
+/* Christina - all pricing tables */
+.pricing-table .level-max .footer {
     padding-bottom: 60px;
     padding-top: 60px;
 }
@@ -3623,11 +3623,11 @@ Notify box
 }
 .pricing-table-second .column:last-child {
     margin-right: 0;
-}*/
+}
 
 
 
-/*.pricing-table-second .header {
+.pricing-table-second .header {
     background: none repeat scroll 0 0 #F8F8F8;
     border-top: 1px solid #EAEAEA;
     padding: 26px 20px 23px;
@@ -3642,8 +3642,8 @@ Notify box
 	/*background:%secondary;*/
 	padding:20px 0px;
 	font-weight:bold;
-}*/
-/*.pricing-table-second h4 span {
+}
+.pricing-table-second h4 span {
     /*color: %secondary;*/
     vertical-align: top;
 }
@@ -4023,16 +4023,18 @@ div.postnav { float:left; margin-right:10px; margin-top:10px; margin-bottom:40px
     border: 8px solid #EAEAEA;
 }
 
-/*.pricing-table .level-max {
+/* Christina */
+.pricing-table .level-max {
     border: medium none;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
     margin: -35px 0;
     padding-top: 50px;
     width: 37%;
     z-index: 1;
-}*/
+}
 
-/*}*/
+/* Is this an extra } */
+} 
 
 
 
@@ -4049,7 +4051,8 @@ div.postnav { float:left; margin-right:10px; margin-top:10px; margin-bottom:40px
 		line-height:30px;
 	}
 
-/*	.pricing-table {
+/* Christina - all pricing info */
+	.pricing-table {
 		margin-top: 0;
 		margin-bottom:0;
 	}
@@ -4062,9 +4065,9 @@ div.postnav { float:left; margin-right:10px; margin-top:10px; margin-bottom:40px
 
 	.pricing-table .first-col {
 		border-right:#eaeaea 10px solid!important;
-    }*/
+    }
 
-/*	.pricing-table .last-col {
+	.pricing-table .last-col {
 		border-left:#eaeaea 10px solid!important;
 		margin-bottom:0;
     }
@@ -4088,7 +4091,7 @@ div.postnav { float:left; margin-right:10px; margin-top:10px; margin-bottom:40px
 
 	.pricing-table-second .column:last-child {
 		margin-bottom:0px;
-	}*/
+	}
 
 	/*
 	#cboxTitle { font-size:150% !important; } */
@@ -4168,8 +4171,8 @@ box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 
 
 
-
-/*.call-to-action {
+/* Christina */
+.call-to-action {
 	margin-top: 40px;
 	margin-bottom: 0;
 	position: relative;
@@ -4179,17 +4182,19 @@ box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 	font-size: 22px;
 }
 
+/* Christina */
 .call-to-action .container {
 	padding: 42px 0px 36px 0px;
 }
 
+/* Christina */
 .call-to-action .container span {
 	letter-spacing: -1px;
 	display: inline-block;
-}*/
+}
 
-
-/*.call-to-action .container a {
+/* Christina */
+.call-to-action .container a {
 
 	position: relative;
 	top: -3px;
@@ -4205,10 +4210,10 @@ box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     display: inline-block;
     border-radius: 5px 5px 5px 5px;
     padding: 16px 21px;
-}*/
+}
 
-
-/*.call-to-action .triangle {
+/* Christina */
+.call-to-action .triangle {
 	border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     height: 10px;
@@ -4217,6 +4222,7 @@ box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     margin: -42px auto 33px auto;
 }
 
+/* Christina */
 .call-to-action a {
 	opacity: 0.75;
 	transition: opacity 0.3s linear;
@@ -4225,9 +4231,10 @@ box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 	-o-transition: opacity 0.3s linear;
 }
 
+/* Christina */
 .call-to-action a:hover {
 	opacity: 1;
-}*/
+}
 
 
 #navigation { height:100px;
@@ -4238,20 +4245,18 @@ box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 #navigation.expanded { height:70px;}
 
-
-/*.singleblog .post.quote.clearfix { margin-top:0; }
+/* Christina */
+.singleblog .post.quote.clearfix { margin-top:0; }
 .singleblog .video-wrapper,
 .singleblog .video-wrapper > *,
 .post .video-wrapper,
 .post .video-wrapper > *
  { height:400px; margin-bottom:20px;}
-.singleblog .video-wrapper > * > iframe,*/
-/*.post .video-wrapper > * > iframe { height:100%;}*/
-/*.youtube-video { max-width:100%; }*/
+.singleblog .video-wrapper > * > iframe,
+.post .video-wrapper > * > iframe { height:100%;}
+.youtube-video { max-width:100%; }
 
-/*iframe { max-width:100%; }*/
-
-
+iframe { max-width:100%; }
 
 
 
@@ -4267,21 +4272,25 @@ box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 
 
 
-/*	div.postnav span {
+
+/* Christina */
+	div.postnav span {
 		float:left;
 		margin-left:13px;
-	}*/
+	}
 
-/*	.post-thumbnail {
+/* Christina */
+	.post-thumbnail {
 		float:left;
 		margin-bottom:20px;
 		display:block;
 		max-width:100%;
-	}*/
+	}
 
 
-/*#mbYTP_bgndVideo { width:100% !important; margin-left:0 !important; }
+/* Christina */
+#mbYTP_bgndVideo { width:100% !important; margin-left:0 !important; }
 .ls-layer > div { height:100% !important; }
-.ls-video-layer > iframe { height:100%;}*/
+.ls-video-layer > iframe { height:100%;}
 
  a.anchortop{display: block; position: relative; top: -350px; visibility: hidden;}

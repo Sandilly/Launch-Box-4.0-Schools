@@ -17,7 +17,7 @@
  *= require project_page
  *= require skin
  *= require sticky-footer-navbar
- 
+ *= require style
  *= require toolpages_style
 
  *= require_self
