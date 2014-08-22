@@ -21,7 +21,7 @@
 
 		<a href="#"><button type="button" class="btn btn-default" style="
 			height: 65px;
-			width: 160px;
+			width: 174px;
 			padding: px;
 			text-align: center;
 			margin-left: 1%;
@@ -31,7 +31,7 @@
 
 			<a href="#"><button type="button" class="btn btn-default" style="
 				height: 65px;
-				width: 160px;
+				width: 174px;
 				padding: 10px;
 				text-align: center;
 				margin-left: 5px;
@@ -50,37 +50,23 @@
 
 
 
-<!-- ********** Carousel(start)******* -->
-	
-
-<div class="your-class">
-  <div><%= image_tag "1.png", alt: "Person one's face", width: "270", height: "270" %>
-</div>
-
-  <div><%= image_tag "3.png", alt: "Person one's face", width: "270", height: "270" %>
-</div>
-
-  <div><%= image_tag "4.png", alt: "Person one's face", width: "270", height: "270" %>
-</div>
-
-<div><%= image_tag "5.png", alt: "Person one's face", width: "270", height: "270" %>
-</div>
-
-<div><%= image_tag "6.png", alt: "Person one's face", width: "270", height: "270" %>
-</div>
-
-<div><%= image_tag "7.png", alt: "Person one's face", width: "270", height: "270" %>
-</div>
-</div>
-
-<!-- *********Carousel(end)*********** -->
+			<!-- ********** Carousel(start)******* -->
 
 
+			<div class="carousel">
+				<div><%= image_tag "1.png", alt: "Person one's face", width: "270", height: "270" %> </div>
+				<div><%= image_tag "3.png", alt: "Person one's face", width: "270", height: "270" %> </div>
+				<div><%= image_tag "4.png", alt: "Person one's face", width: "270", height: "270" %> </div>
+				<div><%= image_tag "5.png", alt: "Person one's face", width: "270", height: "270" %> </div>
+				<div><%= image_tag "6.png", alt: "Person one's face", width: "270", height: "270" %> </div>
+				<div><%= image_tag "7.png", alt: "Person one's face", width: "270", height: "270" %> </div>
+			</div>
 
-
+			<!-- *********Carousel(end)*********** -->
 
 
 		</div>
+
 	</section><!--end of People who practiced -->
 
 	<hr>
@@ -122,17 +108,3 @@
 			</div>
 		</div>
 	</section><!--end of Additional tools  -->
-
-	<!-- Carousel script tags(start): scripts for the Center Mode carousel on http://kenwheeler.github.io/slick/  Will have add them to the manifest later and figure out if there is a better way of adding them to Rails. (Requires jQuery 1.7 +)-->
-
-     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-     <script type="text/javascript" src="slick/slick.min.js">
-     <!-- end of Script tags for carousel -->
-     <!-- carousel reladed! does not go here! -->
-$(document).ready(function(){
-  $('.your-class').slick({
-    setting-name: setting-value
-  });
-});
-</script>
