@@ -2,6 +2,10 @@
 <h1 id="page-heading"> PAPER PROTOTYPING </h1>
 <% end %>
 
+<div id="bread-crumbs">
+	<p>You are here:<%= link_to "Home", root_path %> > <%= link_to "Prototyping Index", prototyping_prototype_index_path %> > <%= link_to "Paper Prototyping", prototyping_paper_prototyping_path %></p>
+</div>
+
 <section id="vid_text"><!--video and text section -->
 	<div class="text">
 		<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.Duis aute irure dolor in reprehenderit in voluptate velit esse. </p>
@@ -52,12 +56,12 @@
 
 
 			<div class="carousel">
-						<div><%=link_to image_tag("1.png", alt: "Person one's face", width: "270", height: "270"), {:action => 'project_page', :controller => 'pages'}, :class => 'dock-item' %></div>
-						<div><%=link_to image_tag("3.png", alt: "Person one's face", width: "270", height: "270"), {:action => 'project_page', :controller => 'pages'}, :class => 'dock-item' %></div>
-<div><%=link_to image_tag("4.png", alt: "Person one's face", width: "270", height: "270"), {:action => 'project_page', :controller => 'pages'}, :class => 'dock-item' %></div>
-<div><%=link_to image_tag("5.png", alt: "Person one's face", width: "270", height: "270"), {:action => 'project_page', :controller => 'pages'}, :class => 'dock-item' %></div>
-<div><%=link_to image_tag("6.png", alt: "Person one's face", width: "270", height: "270"), {:action => 'project_page', :controller => 'pages'}, :class => 'dock-item' %></div>
-<div><%=link_to image_tag("7.png", alt: "Person one's face", width: "270", height: "270"), {:action => 'project_page', :controller => 'pages'}, :class => 'dock-item' %></div>
+				<div><%=link_to image_tag("1.png", alt: "Person one's face", width: "270", height: "270"), {:action => 'project_page', :controller => 'pages'}, :class => 'dock-item' %></div>
+				<div><%=link_to image_tag("3.png", alt: "Person one's face", width: "270", height: "270"), {:action => 'project_page', :controller => 'pages'}, :class => 'dock-item' %></div>
+				<div><%=link_to image_tag("4.png", alt: "Person one's face", width: "270", height: "270"), {:action => 'project_page', :controller => 'pages'}, :class => 'dock-item' %></div>
+				<div><%=link_to image_tag("5.png", alt: "Person one's face", width: "270", height: "270"), {:action => 'project_page', :controller => 'pages'}, :class => 'dock-item' %></div>
+				<div><%=link_to image_tag("6.png", alt: "Person one's face", width: "270", height: "270"), {:action => 'project_page', :controller => 'pages'}, :class => 'dock-item' %></div>
+				<div><%=link_to image_tag("7.png", alt: "Person one's face", width: "270", height: "270"), {:action => 'project_page', :controller => 'pages'}, :class => 'dock-item' %></div>
 			</div>
 
 			<!-- :) *********Carousel(end)*********** --> 
