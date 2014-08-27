@@ -20,6 +20,7 @@ main{
 main h2{
   font-family: "Gotham-Medium";
   padding-bottom:15px;
+  padding-top:0px;
 }
 
 div .jumbotron{
@@ -30,7 +31,7 @@ div .jumbotron{
 div .tools-box{
   border:1px solid #eee;
   padding:15px 0;
-  margin-bottom: 48px;
+  margin-bottom: 25px;
   overflow: auto;
   overflow-y:hidden;
 }
@@ -82,7 +83,7 @@ div .hover-text{
   color:#fff
 }
 
-.carousel{
+.home-carousel{
   border:1px solid #eee;
   padding: 15px;
   background-color:#fff;
@@ -90,7 +91,7 @@ div .hover-text{
   margin-bottom: 20px;
 }
 
-.carousel img{
+.home-carousel img{
   margin:0 15px;
   width:250px;
   height:150px;
