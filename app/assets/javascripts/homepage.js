@@ -1,1 +1,0 @@
- // $(".tools .boxes .hover-text").hide();
