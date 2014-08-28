@@ -1,15 +1,22 @@
-// $("div .hover-box").find(".hover-text").hide();
+$(function(){
+  $('.right-btn').hover(function(){
+    $(this).find('img').attr('src', '/assets/next-hover.png')
+  },function(){
+    $(this).find('img').attr('src', '/assets/next.png')
+  })
 
-// $("div .tools-box .hover-box").hover(function(){
-//   $(this).find()
-// });
+  $('.left-btn').hover(function(){
+    $(this).find('img').attr('src', '/assets/prev-hover.png')
+  },function(){
+    $(this).find('img').attr('src', '/assets/prev.png')
+  })
 
-// $("div .btn").hover(function(){
-//   $(this).find()
-// });
-
-
-$("div .btn").hover(function(){
-   // $(this).find('a img').attr("src", 'images/mouse_over.png');
-   alert(this);
+  $(".tools-box .boxes").hover(function(){
+    //alert("hi")
+    $(this).find(".hover-text").show();
+  },
+  function(){
+    //alert("bye")
+    $(this).find(".hover-text").hide();
+  });
 });
