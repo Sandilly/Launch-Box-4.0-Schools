@@ -21,6 +21,7 @@
  *= require slick
  *= require slick_style
  *= require toolpages_style
+ *= require images
  *= require_tree .
  *= require_self
  */
