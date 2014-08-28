@@ -58,6 +58,7 @@ tbody{background:#fff;border-color:#fff;}
 td{background:#3498db;border:1px solid #fff;color:#fff;padding:10px;width:33%; vertical-align: top;}
 th{border-left:1px solid #3498db;padding:10px;}
 td:first-child { font-weight: bold;}
+
 th.last{width: 230px;}
 th.type {width: 80px;}
 th.default { width: 100px; }
