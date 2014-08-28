@@ -1,8 +1,13 @@
 <div class="container">
 
     <span class="prototype-title">
-      <h1>PROTOTYPING</h1>
+      <h1 id="page-heading">PROTOTYPING</h1>
     </span>
+
+
+<div id="bread-crumbs">
+  <p>You are here: <%= link_to "Home", root_path %> > <%= link_to "Prototyping Index", prototyping_prototype_index_path %></p>
+</div>
 
 
     <div class="jumbotron prototype-desc">
@@ -28,6 +33,7 @@
       </div>
 
       <div class="col-md-5 col-md-offset-2">
+        <a href="/prototyping/paper-prototyping">
         <div class="text-container">
           <h2>Paper</h2>
           <!-- <div class="mask"> -->
@@ -39,6 +45,7 @@
               Consequat consectetur enim et pariatur aliquip voluptate et dolor voluptate elit ut.
               Labore elit officia incididunt minim magna.å</p>
         </div>
+         </a>
       </div>
     </div>
 

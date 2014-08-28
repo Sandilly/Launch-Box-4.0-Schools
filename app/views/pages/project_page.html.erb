@@ -1,7 +1,12 @@
-<h1 id="project-title">Project Title</h1>
+ <h1 id="page-heading"> Project Title</h1>
+
+<div id="bread-crumbs">
+	<p>You are here: <%= link_to "Home", root_path %> > <%= link_to "Prototyping Index", prototyping_prototype_index_path %> > <%= link_to "Paper Prototyping", prototyping_paper_prototyping_path %> > <%= link_to "Project Title",  prototyping_project_page_path %></p>
+</div>
+
 
 <div class="project-text">
-	<p>
+	<p id="paragragh">
 		<strong>Description: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -38,7 +43,7 @@
 </div>
 
 <div class="project-text">
-	<p>
+	<p id="paragragh">
 		<strong>Description about links: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

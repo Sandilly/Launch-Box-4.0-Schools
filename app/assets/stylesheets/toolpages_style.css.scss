@@ -1,13 +1,21 @@
 html {
-	font-family: 'Gotham-book',Montserrat,helvetica, arial;
-	color: #5e5e5e;
+	font-family: 'Gotham-book',Montserrat, helvetica, arial;
+	color: rgb(163,163,163);
 }
 
-h2 {
+#page-heading {
+	font-family: 'Gotham-book',Montserrat, helvetica, arial;
+	color: #5e5e5e;
+	font-size: 45px;
+}
+
+
+.sub-headings {
 	text-align: center;
 	padding-bottom: 45px;
 	padding-top: 9%;
 	margin-top: 5%;
+	background-color: blue;
 }
 
 
@@ -17,7 +25,7 @@ h2 {
 		height: 40%;
 		width: 101%;
 		vertical-align: middle; 
-		// background: #8DAA33;
+		background: #8DAA33;
 }
 
 .text {
@@ -27,13 +35,13 @@ h2 {
 	vertical-align: middle; 
 	float: left;
 	margin-right: 4%;
-	// background: yellow;
+  background: yellow;
 }
 .text p {
 	text-align: left;
 }
 .video {
-	// background: red;
+  background: red;
 	padding: 1%;
 	// margin: 0 auto;
 	float: left;
@@ -41,19 +49,29 @@ h2 {
 }
 
 #pdf_share_btn {
-	width:45%;
+	width: 450px;
 	height: 100;
-	// background: orange;
-	padding: 0 11%;
+	margin-left: 0%;
+	padding: 0%;
 }
 
+#pdf_share_btn btn btn-default {
+		height: 65px;
+		width: 174px;
+		padding: 10px;
+		text-align: center;
+		margin-left: 1%;
+		background-color: #2d9ed4;
+		color: white;
+	}
+
 #practiced {
-		height: 20%;
+		height: 15%;
 		clear: both;
 }
 
 #practiced h2 {
-		padding-top: 0%
+		padding-top: 4%
 }
 
 hr {
@@ -72,16 +90,19 @@ hr {
 #additionalTools #addtional-header h2{
 		height: 10%;
 		margin: auto 0;
+		margin-top: 100px;
   	position: relative;
+  	background-color: blue;
+  	padding: 10px;
 }
 
 html body #additional-tools {
 	margin: 5% auto;
 	 // width: 90%;
 	// border: 5px solid black;
-	 height: 30%;
+	 height: 20%;
 	// padding: 8%;
-	// background-color: pink;
+	 background-color: pink;
 	min-height: 100%;
 }
 
