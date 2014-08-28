@@ -13,7 +13,7 @@ html {
 .sub-headings {
 	text-align: center;
 	padding-bottom: 45px;
-	padding-top: 9%;
+	padding-top: 2%;
 	margin-top: 5%;
 	background-color: blue;
 }
@@ -45,6 +45,7 @@ html {
 	padding: 1%;
 	// margin: 0 auto;
 	float: left;
+	margin-left: 0%;
 	vertical-align: middle;
 }
 
@@ -65,21 +66,31 @@ html {
 		color: white;
 	}
 
+#vid_text .btn .btn-default {
+	border-color: #2d9ed4;
+	background-color: #2d9ed4;
+}
+
+.share .btn .btn-default {
+	background-color: #f37441;
+}
+
 #practiced {
 		height: 15%;
 		clear: both;
 }
 
-#practiced h2 {
+#practiced .sub-headings {
 		padding-top: 4%
 }
 
 hr {
 	margin-left: 3%;
 	margin-right: 3%;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    height: 1px;
+    border-top: 1px solid #a3a3a3;
+//     // border-bottom: 1px solid #a3a3a3;
+//     background: #a3a3a3;
 }
 
 #carousel {
@@ -109,7 +120,7 @@ html body #additional-tools {
 #three-cols {
 	width: 96%;
 	// width: 900px; 
-	height: 427px;
+	height: 307px;
 	margin: 0 auto;
 	padding-left: 5%;
 	padding-top: 2%;
@@ -143,7 +154,7 @@ html body #additional-tools {
 }
 
 #addtional-header {
-	heigt: 1%;
+	height: 1%;
 }
 
 #additional-tools {
@@ -160,16 +171,6 @@ html body #additional-tools {
 	background-color: #2d9ed4;
 }
 
-// body #left-col button #christina {
-// 	padding-bottom: 2%;
-// 	margin: 1%;
-// }
-
-#vid_text .btn .btn-default {
-	border-color: #2d9ed4;
-	background-color: #2d9ed4;
-}
-
-.share .btn .btn-default {
-	background-color: #f37441;
+#space {
+	height: 1%;
 }

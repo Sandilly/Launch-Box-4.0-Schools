@@ -18,9 +18,10 @@
  *= require skin
  *= require sticky-footer-navbar
  *= require style
- *= require toolpages_style
+
  *= require slick
  *= require slick_style
+ *= require toolpages_style
  *= require_tree .
  *= require_self
  */
