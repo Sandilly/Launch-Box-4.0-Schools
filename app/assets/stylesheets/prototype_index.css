@@ -23,19 +23,30 @@
   opacity: 1
 }
 
-iframe {
+/*iframe {
   float: left;
   position: relative;
-}
+}*/
 
 .text-container:hover {
   background-color: #2d9ed4;
 }
 
-.prototype-desc  {
-  background-color: #ffffff;
+div .prototype-desc  {
   overflow: auto;
-  border: solid 1px #6d6f71;
+  background-color: #eee;
+  padding:10px;
+}
+div .prototype-desc .video  {
+  padding:0;
+}
+div .prototype-desc .video-text p{
+  font-size: 16px;
+  padding:10px 20px;
+}
+div .prototype-desc iframe {
+  /*border:5px solid #2d9ed4;*/
+
 }
 
 /*
